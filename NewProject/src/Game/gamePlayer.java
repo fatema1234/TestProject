@@ -7,6 +7,7 @@ public abstract class gamePlayer {
 		private String name;
 		private int skill;
 		private int DownEnergy;
+		private int attack;
 		public gamePlayer(int strength,String name,int skill) { 
 			 
 			strength =0;
@@ -34,6 +35,9 @@ public abstract class gamePlayer {
 		return DownEnergy; 
 	
 	}
+		public int getAttack() {
+			return attack;
+		}
 }
 
 	
