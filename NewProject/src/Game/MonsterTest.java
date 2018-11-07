@@ -4,6 +4,7 @@ import static org.junit.Assert.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
 
 class MonsterTest {
 
@@ -37,4 +38,9 @@ class MonsterTest {
 void getRandomAttack() {
 	
 }
+@Test
+void getMonsterWinn() {
+			
+}
+
 }		
