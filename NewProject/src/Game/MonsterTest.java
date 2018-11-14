@@ -9,7 +9,8 @@ import org.junit.jupiter.api.function.Executable;
 class MonsterTest {
 
 	Monster mon = new Monster(0, null, 0); 
-	gamePlayer gp = new gamePlayer();
+	gamePlayer gp = new gamePlayer(0, null, 0);
+	
 	@Test
 	void testGetMaxStrengthStrong() {
 		assertEquals(200, mon.getMaxStrength());
@@ -35,11 +36,7 @@ class MonsterTest {
 			assertArrayEquals(expected, mon.getAttack());
 		}
 @Test
-void getRandomAttack() {
-	
-}
-@Test
-void getMonsterWinn() {
+void getWinn() {
 			
 }
 
