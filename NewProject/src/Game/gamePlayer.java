@@ -1,6 +1,6 @@
 package Game;
 
-public abstract class gamePlayer {
+public class gamePlayer {
 
 	
 		private int strength;  

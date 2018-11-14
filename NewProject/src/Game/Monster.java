@@ -39,7 +39,7 @@ public class Monster extends gamePlayer {
 			
 		}
 
-		public void getWinner() {
+		public void getWinn() {
 						
 		}
 }
